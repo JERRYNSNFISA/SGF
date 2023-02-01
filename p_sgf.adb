@@ -57,9 +57,8 @@ package body p_sgf is
          end if;
       end if;
       
+      index_char:= 1;
       if commande /= "" then
-         index_char:= 1;
-      
          while (index_char < Length(commande)) loop
             index_char := index_char + 1;
          end loop;
